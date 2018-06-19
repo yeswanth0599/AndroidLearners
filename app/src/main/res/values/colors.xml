@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabNotSelected">#F06292</color>
+    <color name="tabSelected">#C2185B</color>
+    <color name="imageThumbnailPlaceholder">#A1887F</color>
+    <color name="topicTitleTextColor">#000000</color>
+</resources>

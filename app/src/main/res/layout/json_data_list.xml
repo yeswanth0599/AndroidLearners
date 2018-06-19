@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trainingTopicListDisplay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/trainingTopicDisplaycardView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainScreenCardView"
+        android:layout_margin="@dimen/dimen_5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/relativelayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/topicImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/mainScreenImageDisp" />
+
+                <TextView
+                    android:id="@+id/trainingTopicName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="Hello"
+                    android:textAllCaps="true"
+                    android:textColor="@color/topicTitleTextColor"
+                    android:textSize="@dimen/text_size_14sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/mainScreenLikesImage"
+                            android:layout_width="@dimen/padding_24dp"
+                            android:layout_height="@dimen/padding_24dp"
+                            android:src="@drawable/icon_like" />
+
+                        <TextView
+                            android:id="@+id/mainScreenLikesCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/count"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/mainScreenCommentsImage"
+                            android:layout_width="@dimen/padding_24dp"
+                            android:layout_height="@dimen/padding_24dp"
+                            android:src="@drawable/icon_comment" />
+
+                        <TextView
+                            android:id="@+id/mainScreenCommentsCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/count"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/mainScreenAmmountDisplay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/amount"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
